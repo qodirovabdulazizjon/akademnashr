@@ -7,10 +7,18 @@ body{
 
 .site-header{
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header-right{
+  display: flex;
+  align-items: center;
 }
 
 .sitenav-list{
   list-style: none;
+  display: flex;
 }
 
 .sitenav-link{
@@ -34,6 +42,9 @@ body{
 .hero{
   background-color: #252420;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-content{
@@ -93,6 +104,11 @@ body{
   letter-spacing: 0.5px;
 }
 
+.features-list{
+  display: flex;
+  justify-content: space-between;
+}
+
 .feature{
   width: 340px;
   list-style: none;
@@ -101,6 +117,9 @@ body{
 .promo{
   background-color: #252420;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .promo-content{
@@ -136,15 +155,32 @@ body{
   list-style: none;
 }
 
+.site-footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer-socials{
+  display: flex;
+  align-items: center;
+}
+
 .site-footer-divider{
   background-color: rgba(37, 36, 32, 0.5);
   height: 2px;
 }
 
+.site-footer-link-list-bottom{
+  display: flex;
+}
+
 .site-footer-link-list{
   width: 224px;
   line-height: 19px;
+  
 }
+
 
 .site-footer-link-list a{
   list-style: none;
